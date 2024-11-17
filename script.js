@@ -1,9 +1,3 @@
-let passwordText = document.querySelector("#secret-password")
-let lengthInput = document.querySelector("#pw-length").defaultValue
-console.log(lengthInput)
-
-// let length = 8
-
 const passwordCharacters = [
     // Uppercase letters
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 
@@ -22,13 +16,30 @@ const passwordCharacters = [
     '?', '/', '`', '~'
 ];
 
+let passwordText = document.querySelector("#secret-password")
+let lengthInput = document.querySelector("#pw-length").value
+console.log(lengthInput)
+// let updatedLength = ""
+
+// let length = 8
+
+
+
 // lengthInput.value = 8;
 
+// lengthInput.addEventListener("input", function updateLength(){
+//     updatedLength = document.querySelector("#pw-length").value;
+//     console.log(updatedLength)
+
+// });
+
+
+
 function setText(){
-   
    passwordText.textContent = ""
-    for ( i=0; i<lengthInput; i++){
+    for ( i=0; i<8; i++){
+        
         let passwordNum = Math.floor(Math.random()*passwordCharacters.length)
-passwordText.textContent += passwordCharacters[passwordNum]
+        passwordText.textContent += passwordCharacters[passwordNum]
     }
 }

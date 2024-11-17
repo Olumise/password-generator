@@ -76,9 +76,12 @@ p{
 }
 
 .container{
-    height: 100%;
+    min-height: 100vh;
     background-color: #1C1C1C;
-    padding: 40px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-body{
