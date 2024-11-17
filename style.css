@@ -1,0 +1,151 @@
+html,body{
+    margin:0;
+    height: 100%;
+    font-family: 'ClashDisplay-Regular';
+    font-weight: 400;
+    
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('fonts/clash/fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Extralight.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('fonts/clash/fonts/ClashDisplay-Light.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Light.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('fonts/clash/fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('fonts/clash/fonts/ClashDisplay-Medium.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Medium.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('fonts/clash/fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Semibold.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('fonts/clash/fonts/ClashDisplay-Bold.woff2') format('woff2'),
+         url('fonts/clash/fonts/ClashDisplay-Bold.woff') format('woff'),
+         url('fonts/clash/fonts/ClashDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+h2{
+    font-size: 60px;
+    font-family: 'ClashDisplay-Bold';
+    font-weight: 600;
+    margin: 0;
+}
+
+.green-text{
+    color: #4ADF86;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container{
+    height: 100%;
+    background-color: #1C1C1C;
+    padding: 40px;
+}
+
+.content-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #1F2937;
+    color:white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.head-content{
+    display: flex;
+    flex-direction: column;
+    min-width:50%;
+    text-align: center;
+}
+
+.generate-btn{
+    background-color: #10B981;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'ClashDisplay-Regular';
+    font-weight: 400;
+    color: white;
+    align-self:flex-star;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-btn:hover{
+    background-color: white;
+    color:#1F2937
+}
+
+#secret-password{
+    background-color: #1C1C1C;
+    min-width: 200px;
+    min-height: 30px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.password-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#pw-length{
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: white;
+    border-top-width: 4px;
+    border-color: white;
+    color: rgb(0, 0, 0);
+    padding: 0 10px;
+    border:0;
+}
+
+
